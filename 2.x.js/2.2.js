@@ -1,8 +1,8 @@
-let min = prompt("select a min equal or above 0")
-let max = prompt("select a max equal or under 9")
+let min = prompt("select a min equal to 0 and below 9")
+let max = prompt("select a max equal to 0 and below 9")
 
 if ((min > max) || (min < 0) || (max > 9))  {
-function Wtf(){ Error.apply(this, arguments); this.name = "Damn you're bad, see you...  ://"; }
+function Wtf(){ Error.apply(this, arguments); this.name = "Your min is higher than your max... see you...  ://"; }
 Wtf.prototype = Object.create(Error.prototype);
 throw new Wtf("Damn you're bad, see you...  ://");
 }

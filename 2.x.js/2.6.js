@@ -14,4 +14,6 @@ if (day == "1") {
     console.log("Saturday")
 } else if (day == "7") {
     console.log("Sunday")
+} else {
+    alert("error")
 }

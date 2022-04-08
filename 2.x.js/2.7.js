@@ -1,3 +1,6 @@
-let n = prompt("How many numbers to sum ?")
+let n = Number(prompt("Enter how many numbers you want to sum"));
 
-if n
+while (n !== 0){
+    Number(prompt("Enter a number to sum"))
+    n--
+}

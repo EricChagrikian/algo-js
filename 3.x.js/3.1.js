@@ -3,6 +3,7 @@ let total = 0;
 for (let i in arr) {
   total += arr[i];
 }
+console.log(total)
 
 // 2e arr
 
@@ -11,3 +12,4 @@ let total = 0;
 for (let i in arr) {
   total += arr[i];
 }
+console.log(total)

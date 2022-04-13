@@ -1,4 +1,3 @@
-
 let askTvSerie = {
    
     name: prompt("What is your favorite TV serie's name ?"),

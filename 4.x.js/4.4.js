@@ -1,5 +1,9 @@
 let arr = ["Gilles", "Jamie", "Jason", "Jérémy", "Emre", "Rayane", "Rayhan", "Ricardo", "Steffanie", "Sébastien", "Tangy", "Thibaud", "Zakaria", "Martin", "Eric"]
 
+function rand10() {
+    return Math.floor(Math.random() * arr.length);
+}
+
 function pickLearners(arr, n){
     if(n >= arr.length)
       return arr
@@ -8,7 +12,7 @@ function pickLearners(arr, n){
     const returnArr = []
   
     for(let i=0;i<n;i++){
-      const r = Math.random() * arrCopy.length | 0
+      const r = rand10()
   
       returnArr.push(arrCopy[r])
       arrCopy.splice(r, 1)
@@ -17,4 +21,4 @@ function pickLearners(arr, n){
     return returnArr
   }
   
-console.log(pickLearners(arr, 3));
+console.log(pickLearners(arr, 2));

@@ -2,7 +2,7 @@ let askTvSerie = {
    
     name: prompt("What is your favorite TV serie's name ?"),
     year: prompt("When was it produced ?"),
-    cast: prompt ("Name one or more members of its cast.")
+    cast: [ prompt ("Name one or more members of its cast.")
 
 };
 
